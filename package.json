@@ -1,14 +1,25 @@
 {
   "name": "notion-markdown-cleaner",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "./index",
+  "bin": {
+    "notion-markdown-cleaner": "./cli.js"
+  },
+  "homepage": "https://github.com/bunnybones/notion-markdown-cleaner",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bunnybones1/notion-markdown-cleaner.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Tomasz Dysinski",
   "license": "ISC",
   "dependencies": {
     "markdown-link-extractor": "^4.0.2"
+  },
+  "engines": {
+    "node": ">= 4"
   }
 }
